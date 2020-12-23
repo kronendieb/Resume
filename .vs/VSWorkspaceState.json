@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\website"
+    "\\website",
+    "\\website\\type1",
+    "\\website\\type2"
   ],
-  "SelectedNode": "\\website\\resumestyle.css",
+  "SelectedNode": "\\website\\type1\\resumestyle.css",
   "PreviewInSolutionExplorer": false
 }
