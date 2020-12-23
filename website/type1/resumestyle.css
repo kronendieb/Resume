@@ -1,0 +1,154 @@
+body {
+	background-color: #fefefc;
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.wrapper
+{
+	
+	
+	
+}
+
+.layout_parent
+{
+	display: inline-block;
+	width: 100%;
+	display: inline-block;
+	padding: 0px;
+
+}
+
+.title
+{
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.box 
+{
+
+	flex: 1 1 250px;
+	margin: 5px;
+	display:grid;
+	place-items:center;
+	/*
+
+	grid-template-columns: 30% auto;
+	place-items: center;
+	position: relative;
+	*/
+}
+
+.strip {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.odd {
+	background-color: #cde0ff;
+	border-top-style: solid;
+	border-top-color: #CDE2FF;
+	border-bottom-style: solid;
+	border-bottom-color: #98C3FF;
+	border-left-style: solid;
+	border-left-color: #98C3FF;
+}
+
+.radial_gradient {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: #fefefc;
+	background: radial-gradient(circle, #f5ff55 0%, #fefefc 25%);
+}
+
+#header_image img
+{
+	width: 50%;
+	border-radius: 20%;
+
+}
+
+#education {
+}
+
+#languages 
+{
+
+}
+
+#skills 
+{
+	
+}
+
+.button {
+	background-color: #F1D300;
+	border: none;
+	color: black;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	border-style: outset;
+	border-color: #FFD65A;
+}
+
+.button_list li{
+	list-style-type: none;
+}
+
+.button_list li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	background-color: #F1D300;
+}
+
+.button_list li a:hover{
+	text-decoration: underline;
+	color: black;
+	background-color: #FFDF00;
+}
+
+#footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #fefefc;
+	margin: 0px;
+	background: rgb(205,224,255);
+	background: linear-gradient(180deg, rgba(205,224,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+a:link
+{
+	
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	
+}
+
+a:visited
+{
+	
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	
+}
